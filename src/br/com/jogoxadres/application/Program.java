@@ -1,10 +1,13 @@
 package br.com.jogoxadres.application;
 
+import br.com.jogoxadres.boardgame.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
 			
-		System.out.println("Uitilizando metodos aprendidos");
+		Position position = new Position(3, 5);
+		System.out.println(position);
 
 	}
 
